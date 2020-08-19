@@ -23,7 +23,7 @@ namespace PDF_Assignment_Annotator
                 Properties.Resources.correct_selected,
                 Properties.Resources.wrong_selected };
             Annotator.Initiate(this, pictureBox1, images);
-            updater = new SharpUpdater(Assembly.GetExecutingAssembly(), this, new Uri("http://www.sadasd.com"));
+            updater = new SharpUpdater(Assembly.GetExecutingAssembly(), this, new Uri("https://raw.githubusercontent.com/DinushaMS/Assignment-Annotator-V2/master/PDF_Assignment_Annotator/bin/Release/update.xml"));
             //this.Text = ProductName + " - " + ProductVersion;
         }
 
