@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDF_Assignment_Annotator", "PDF_Assignment_Annotator\PDF_Assignment_Annotator.csproj", "{A161FB93-C76D-415F-BB2E-44525A372113}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDF_Annotation", "PDF_Annotation\PDF_Annotation.csproj", "{8D31FC29-AD73-4A15-90A6-94238996F9F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A161FB93-C76D-415F-BB2E-44525A372113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A161FB93-C76D-415F-BB2E-44525A372113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A161FB93-C76D-415F-BB2E-44525A372113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A161FB93-C76D-415F-BB2E-44525A372113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D31FC29-AD73-4A15-90A6-94238996F9F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D31FC29-AD73-4A15-90A6-94238996F9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D31FC29-AD73-4A15-90A6-94238996F9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D31FC29-AD73-4A15-90A6-94238996F9F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D69C9C2-52AD-4E96-A929-043B94472B8E}
+	EndGlobalSection
+EndGlobal
