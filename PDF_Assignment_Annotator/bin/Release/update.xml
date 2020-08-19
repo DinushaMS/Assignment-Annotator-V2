@@ -4,7 +4,7 @@
     <version>1.0.0.0</version>
     <url>https://raw.githubusercontent.com/DinushaMS/Assignment-Annotator-V2/master/PDF_Assignment_Annotator/bin/Release/PDF_Assignment_Annotator.exe</url>
     <filePath>./PDF_Assignment_Annotator.exe</filePath>
-    <md5>F16F9270971EAEAE8E313B32E8FF0814</md5>
+    <md5>97c609303a5ba259a99184dd44b42c2c</md5>
     <description></description>
     <launchArgs></launchArgs>
   </update>
@@ -12,7 +12,7 @@
     <version>1.1.0.0</version>
     <url>https://raw.githubusercontent.com/DinushaMS/Assignment-Annotator-V2/master/PDF_Assignment_Annotator/bin/Release/SharpUpdate.dll</url>
     <filePath>./SharpUpdate.dll</filePath>
-    <md5>88237737FECE6C41EF6CD10AE4DC54C0</md5>
+    <md5>88b729a9546c7e4d43ec2b394efdf8ff</md5>
     <description></description>
     <launchArgs></launchArgs>
   </update>
@@ -20,7 +20,7 @@
     <version>1.0.0.0</version>
     <url>https://raw.githubusercontent.com/DinushaMS/Assignment-Annotator-V2/master/PDF_Assignment_Annotator/bin/Release/PDF_Annotation.dll</url>
     <filePath>./PDF_Annotation.dll</filePath>
-    <md5>88237737FECE6C41EF6CD10AE4DC54C0</md5>
+    <md5>0e02e3618202ffd91919dade9bfcd436</md5>
     <description></description>
     <launchArgs></launchArgs>
   </update>
