@@ -1,23 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.ComTypes;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Windows.Forms.VisualStyles;
-using PDF_Annotation;
 using System.Reflection;
+using System.Windows.Forms;
+using PDF_Annotation;
+using SharpUpdate;
 
 namespace PDF_Assignment_Annotator
 {    
     public partial class MainForm : Form
     {
+        private SharpUpdater updater;
+        AboutForm aboutForm;
         public MainForm()
         {
             InitializeComponent();
@@ -27,6 +23,8 @@ namespace PDF_Assignment_Annotator
                 Properties.Resources.correct_selected,
                 Properties.Resources.wrong_selected };
             Annotator.Initiate(this, pictureBox1, images);
+            updater = new SharpUpdater(Assembly.GetExecutingAssembly(), this, new Uri("http://www.sadasd.com"));
+            //this.Text = ProductName + " - " + ProductVersion;
         }
 
         private void btnOpen_Click(object sender, EventArgs e)
@@ -128,6 +126,23 @@ namespace PDF_Assignment_Annotator
             {
                 OpenFile(WelcomeFilePath);
             }
+        }
+
+        private void btnCheckForUpdates_Click(object sender, EventArgs e)
+        {
+            updater.DoUpdate();
+        }
+
+        private void btnAbout_Click(object sender, EventArgs e)
+        {
+            if (aboutForm == null)
+            {
+                aboutForm = new AboutForm();
+                aboutForm.Show();
+            }
+            else
+                aboutForm.Activate();
+            
         }
     }
 }

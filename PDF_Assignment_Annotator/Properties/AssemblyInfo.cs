@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PDF_Assignment_Annotator")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("PDF Assignment Annotator")]
+[assembly: AssemblyDescription("A PDF annotator tool specially designed for assignment marking.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PDF_Assignment_Annotator")]
+[assembly: AssemblyCompany("CodeFenex")]
+[assembly: AssemblyProduct("PDF Assignment Annotator")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
