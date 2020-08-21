@@ -12,7 +12,7 @@ namespace Xml_Writer_ConsoleApp
 {
     class Program
     {
-        static string xmlPath = @"C:\Users\dinus\source\repos\Assignment-Annotator-V2\PDF_Assignment_Annotator\bin\Release\test.xml";
+        static string xmlPath = @"C:\Users\dinus\source\repos\Assignment-Annotator-V2\PDF_Assignment_Annotator\bin\Release\update.xml";
         static string[] tasks = { 
         "update",
         "update",
