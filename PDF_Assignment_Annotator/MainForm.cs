@@ -14,10 +14,11 @@ namespace PDF_Assignment_Annotator
     {
         private SharpUpdater updater;
         AboutForm aboutForm;
+        Image[] images;
         public MainForm()
         {
             InitializeComponent();
-            Image[] images = new Image[] {
+            images = new Image[] {
                 Properties.Resources.correct,
                 Properties.Resources.wrong,
                 Properties.Resources.correct_selected,

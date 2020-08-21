@@ -107,16 +107,15 @@ namespace PDF_Annotation
             int endPageNum = Data.pageCount;
             Console.WriteLine(imageOutputPath);
 
-            if (!Directory.Exists(imageOutputPath))
+            if (!Directory.Exists(Data.sourceImageDirpath))
             {
-                Directory.CreateDirectory(imageOutputPath);
+                Directory.CreateDirectory(Data.sourceImageDirpath);
             }
             else
             {
-                Directory.Delete(imageOutputPath, true);
-                Directory.CreateDirectory(imageOutputPath);
+                Directory.Delete(Data.sourceImageDirpath, true);
+                Directory.CreateDirectory(Data.sourceImageDirpath);
             }
-
             // validate pageNum
             if (startPageNum <= 0)
             {
@@ -146,10 +145,10 @@ namespace PDF_Annotation
                 //if (!Directory.Exists(imageOutputPath))
                 //    Directory.CreateDirectory(imageOutputPath + "\\images");
                 pageImage.Save(imageOutputPath + "\\" + imageName + i.ToString() + "." + imageFormat.ToString(), imageFormat);
-                Data.OriginalImages.Add(new Bitmap(imageOutputPath + "\\" + imageName + i.ToString() + "." + imageFormat.ToString()));
-                
-                pageImage.Dispose();
-                
+                string imgPath = imageOutputPath + "\\" + imageName + i.ToString() + "." + imageFormat.ToString();
+                Data.OriginalImages.Add(new Bitmap(GetCopyImage(imgPath)));
+                File.Delete(imgPath);
+
                 //Console.WriteLine($"page {i} converted, width:{Data.OriginalImages[i - 1].Width} height:{Data.OriginalImages[i - 1].Height}");
             }
 
@@ -157,6 +156,15 @@ namespace PDF_Annotation
             //Data.OriginalImages.Clear();
             //File.Delete(imageOutputPath + "\\" + imageName + "1." + imageFormat.ToString());
             return true;
+        }
+
+        private static System.Drawing.Image GetCopyImage(string path)
+        {
+            using (var im = System.Drawing.Image.FromFile(path))
+            {
+                Bitmap bm = new Bitmap(im);
+                return bm;
+            }
         }
     }
 }
