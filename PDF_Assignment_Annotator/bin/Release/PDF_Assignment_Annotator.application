@@ -7,14 +7,14 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="PDF_Assignment_Annotator.exe.manifest" size="11231">
+    <dependentAssembly dependencyType="install" codebase="PDF_Assignment_Annotator.exe.manifest" size="11197">
       <assemblyIdentity name="PDF_Assignment_Annotator.exe" version="1.0.0.5" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>6LbrMqpaVtcZs9pSRKbdrLWIytmtVRmMlL4woADmbg8=</dsig:DigestValue>
+        <dsig:DigestValue>0aANkZlHRbbCv9AUaBYGm+F5Fp501EVdOqzsDWw8uYo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

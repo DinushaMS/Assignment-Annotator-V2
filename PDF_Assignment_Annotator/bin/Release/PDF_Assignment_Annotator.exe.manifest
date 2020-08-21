@@ -4,7 +4,7 @@
   <description asmv2:iconFile="Logo_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="PDF_Assignment_Annotator" version="1.0.0.2" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="PDF_Assignment_Annotator" version="1.0.0.3" language="neutral" processorArchitecture="msil" />
     <commandLine file="PDF_Assignment_Annotator.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -127,26 +127,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PDF_Annotation.dll" size="21504">
-      <assemblyIdentity name="PDF_Annotation" version="1.0.0.1" publicKeyToken="1F3E75706C783FB4" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PDF_Annotation.dll" size="20992">
+      <assemblyIdentity name="PDF_Annotation" version="1.0.0.2" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>gTG4VccwLGZFSmxH9Rzjv0BQc2L+T+S2fxP4PhdfYFY=</dsig:DigestValue>
+        <dsig:DigestValue>zeTjHIDZx+UbjAe8gA0p7Sg2vpBZ0xmVXYDbyWkHZ0Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PDF_Assignment_Annotator.exe" size="593376">
-      <assemblyIdentity name="PDF_Assignment_Annotator" version="1.0.0.2" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PDF_Assignment_Annotator.exe" size="593480">
+      <assemblyIdentity name="PDF_Assignment_Annotator" version="1.0.0.3" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>vS/SvSoibW+iOts5CNnHdvF7p5X9vN+LSjJ45QY6dRY=</dsig:DigestValue>
+        <dsig:DigestValue>++D2i56lqhWEFtsj74qIjpOBY8POUeF1+lBqNXNhcsM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

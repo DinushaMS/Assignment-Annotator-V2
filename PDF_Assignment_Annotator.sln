@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDF_Annotation", "PDF_Annot
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PDF_Assignment_Annotator_Setup", "PDF_Assignment_Annotator_Setup\PDF_Assignment_Annotator_Setup.vdproj", "{33961460-9C9B-442D-AFE5-15DA1C40BA63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xml_Writer_ConsoleApp", "Xml_Writer_ConsoleApp\Xml_Writer_ConsoleApp.csproj", "{CCF4C993-792E-4ECA-AEE3-2B7B3C9769BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{8D31FC29-AD73-4A15-90A6-94238996F9F8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{33961460-9C9B-442D-AFE5-15DA1C40BA63}.Debug|Any CPU.ActiveCfg = Debug
 		{33961460-9C9B-442D-AFE5-15DA1C40BA63}.Release|Any CPU.ActiveCfg = Release
+		{CCF4C993-792E-4ECA-AEE3-2B7B3C9769BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF4C993-792E-4ECA-AEE3-2B7B3C9769BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF4C993-792E-4ECA-AEE3-2B7B3C9769BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF4C993-792E-4ECA-AEE3-2B7B3C9769BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
