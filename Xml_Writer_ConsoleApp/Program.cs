@@ -68,7 +68,7 @@ namespace Xml_Writer_ConsoleApp
             return myFileVersionInfo.FileVersion;
         }
 
-        private static void MakeXML(string xmlFilePath)
+        private static void MakeXML_bk(string xmlFilePath)
         {
             using (StreamWriter sw = new StreamWriter(xmlFilePath))
             {
@@ -89,7 +89,7 @@ namespace Xml_Writer_ConsoleApp
             }
         }
 
-        private static void MakeXML_bk(string xmlFilePath)
+        private static void MakeXML(string xmlFilePath)
         {
             FileStream fs = new FileStream(xmlFilePath, FileMode.Create);
             XmlTextWriter w = new XmlTextWriter(fs, Encoding.UTF8);
@@ -103,7 +103,7 @@ namespace Xml_Writer_ConsoleApp
                 w.WriteStartElement(tasks[i]);
                 //version
                 w.WriteStartElement("version");
-                w.WriteString("1.0.0.2");
+                w.WriteString(GetVersion(publishedFilePaths[i]));
                 w.WriteEndElement();
                 //url
                 w.WriteStartElement("url");
@@ -111,7 +111,7 @@ namespace Xml_Writer_ConsoleApp
                 w.WriteEndElement();
                 //filePath
                 w.WriteStartElement("filePath");
-                w.WriteString(publishedFilePaths[i]);
+                w.WriteString("./"+Path.GetFileName(publishedFilePaths[i]));
                 w.WriteEndElement();
                 //md5
                 w.WriteStartElement("md5");
