@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <sharpUpdate>
   <update>
-    <version>1.0.0.1</version>
+    <version>1.0.0.2</version>
     <url>https://raw.githubusercontent.com/DinushaMS/Assignment-Annotator-V2/master/PDF_Assignment_Annotator/bin/Release/PDF_Assignment_Annotator.exe</url>
     <filePath>./PDF_Assignment_Annotator.exe</filePath>
-    <md5>85424a49d6fc9525a13fb35f5fece09b</md5>
+    <md5>682129b335d5e13a969cd933dfbbbecc</md5>
     <description></description>
     <launchArgs></launchArgs>
   </update>
