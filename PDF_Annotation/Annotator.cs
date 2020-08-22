@@ -315,8 +315,8 @@ namespace PDF_Annotation
             if (true)//paintEnabled && Data.OriginalImages != null)
             {
                 // Create image.
-                //imageFile = System.Drawing.Image.FromFile($"{Data.sourceImageDirpath}\\page{pageIndex + 1}.Jpeg");//Data.OriginalImages[pageIndex];//
-                imageFile = Data.OriginalImages[pageIndex];
+                imageFile = System.Drawing.Image.FromFile($"{Data.sourceImageDirpath}\\page{pageIndex + 1}.Jpeg");//Data.OriginalImages[pageIndex];//
+                //imageFile = Data.OriginalImages[pageIndex];
                 // Create graphics object for alteration.
                 Graphics newGraphics = Graphics.FromImage(imageFile);
                 foreach (var item in ticks)

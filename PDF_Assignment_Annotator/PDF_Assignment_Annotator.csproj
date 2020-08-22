@@ -52,19 +52,19 @@
     <ApplicationIcon>Logo_icon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>94BC4EB88BB9ACC1EE5A270A2A6F3813B0002344</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>8D1EAB4BCBF09633E05CFE224389492CE37C6B2C</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>CodeFenex_Code_Signature.pfx</ManifestKeyFile>
+    <ManifestKeyFile>PDF_Assignment_Annotator_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <TargetZone>LocalIntranet</TargetZone>
   </PropertyGroup>
   <PropertyGroup>
-    <GenerateManifests>true</GenerateManifests>
+    <GenerateManifests>false</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
@@ -123,6 +123,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="CodeFenex_Code_Signature.pfx" />
+    <None Include="PDF_Assignment_Annotator_1_TemporaryKey.pfx" />
     <None Include="PDF_Assignment_Annotator_TemporaryKey.pfx" />
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">

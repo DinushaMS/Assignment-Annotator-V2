@@ -147,7 +147,7 @@ namespace PDF_Annotation
                 pageImage.Save(imageOutputPath + "\\" + imageName + i.ToString() + "." + imageFormat.ToString(), imageFormat);
                 string imgPath = imageOutputPath + "\\" + imageName + i.ToString() + "." + imageFormat.ToString();
                 Data.OriginalImages.Add(new Bitmap(GetCopyImage(imgPath)));
-                File.Delete(imgPath);
+                //File.Delete(imgPath);
 
                 //Console.WriteLine($"page {i} converted, width:{Data.OriginalImages[i - 1].Width} height:{Data.OriginalImages[i - 1].Height}");
             }

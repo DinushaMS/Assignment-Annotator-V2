@@ -52,7 +52,7 @@ namespace PDF_Assignment_Annotator
         {
             Data.panelWidth = panel1.Width;
             Data.sourcePDFpath = filePath;
-            Data.sourceImageDirpath = ".//Images";
+            Data.sourceImageDirpath = Path.Combine(Path.GetTempPath(), "PA_Images");
             //this.Text = $"PDF Assignment Grader - {DATA.fileName}*";
             Console.WriteLine(filePath);
             Console.WriteLine(Path.GetDirectoryName(filePath));
